@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigi n />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,400;8..144,700&family=Roboto+Slab:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>YouTube Clone</title>
+    <style>
+      /* * {
+        box-sizing: border-box;
+      } */
+    </style>
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/header.css " />
+    <link rel="stylesheet" href="styles/video.css" />
+    <link rel="stylesheet" href="styles/sidebar.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <img
+          class="hamburger-menu"
+          src="extra photos and icons/hamburger-menu.svg"
+          alt=""
+        />
+        <img
+          class="youtube-logo"
+          src="extra photos and icons/youtube-logo.svg"
+          alt=""
+        />
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <button class="search-button">
+          <img
+            class="search-icon"
+            src="extra photos and icons/search.svg"
+            alt=""
+          />
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img
+            class="voice-search-icon"
+            src="extra photos and icons/voice-search-icon.svg"
+            alt=""
+          />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img
+            class="upload-icon"
+            src="extra photos and icons/upload.svg"
+            alt=""
+          />
+          <div class="tooltip">Create</div>
+        </div>
+
+        <div class="youtube-app-container">
+          <img
+            class="youtube-apps-icon"
+            src="extra photos and icons/youtube-apps.svg"
+            alt=""
+          />
+          <div class="tooltip">YouTube apps</div>
+        </div>
+
+        <div class="notifications-icon-container">
+          <img
+            class="notifications-icon"
+            src="extra photos and icons/notifications.svg"
+            alt=""
+          />
+
+          <div class="notifications-count">3</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+
+        <img
+          class="current-user-picture-icon"
+          src="channel-picture/my-channel.jpeg"
+          alt=""
+        />
+      </div>
+    </div>
+    <div class="sidebar">
+      <div class="sidebar-icons">
+        <img src="extra photos and icons/home.svg" alt="" />
+        <div>Home</div>
+      </div>
+      <div class="sidebar-icons">
+        <img src="extra photos and icons/explore.svg" alt="" />
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-icons">
+        <img src="extra photos and icons/subscriptions.svg" alt="" />
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-icons">
+        <img src="extra photos and icons/originals.svg" alt="" />
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-icons">
+        <img src="extra photos and icons/youtube-music.svg" alt="" />
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-icons">
+        <img src="extra photos and icons/library.svg" alt="" />
+        <div>Library</div>
+      </div>
+    </div>
+
+    <div class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY"
+            ><img class="thumbnail" src="thumnail/thumbnail-1.webp" alt=""
+          /></a>
+
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="vide-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/c/mkbhd"
+              ><img
+                class="profile-picture"
+                src="channel-picture/channel-1.jpeg"
+                alt=""
+            /></a>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+              <p class="video-title">
+                Talking Tech and AI with Google CEO Sundar Pichai!
+              </p>
+            </a>
+            <a href="https://www.youtube.com/c/mkbhd"
+              ><p class="video-author">Marques Brownlee</p></a
+            >
+
+            <p class="video-stats">3.4M views &#183; 6 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=f35lk5FjRio"
+            ><img class="thumbnail" src="thumnail/thumbnail-2.webp" alt=""
+          /></a>
+
+          <div class="video-time">15:21</div>
+        </div>
+        <div class="vide-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/@HighBoi"
+              ><img
+                class="profile-picture"
+                src="channel-picture/channel-2.jpg"
+                alt=""
+            /></a>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=f35lk5FjRio"
+              ><p class="video-title">Megamind explained by an idiot</p></a
+            >
+            <a href="https://www.youtube.com/@HighBoi"
+              ><p class="video-author">High Boi</p></a
+            >
+
+            <p class="video-stats">846K views &#183; 1 day ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=HzhoW7waw2M"
+            ><img class="thumbnail" src="thumnail/thumbnail-3.webp" alt=""
+          /></a>
+
+          <div class="video-time">6:52</div>
+        </div>
+        <div class="vide-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/@mobiscrub"
+              ><img
+                class="profile-picture"
+                src="channel-picture/channel-3.jpg"
+                alt=""
+            /></a>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=HzhoW7waw2M"
+              ><p class="video-title">
+                14 iPhone Tricks I had NO IDEA Existed - Part 2!
+              </p></a
+            >
+            <a href="https://www.youtube.com/@mobiscrub"
+              ><p class="video-author">mobiscrub</p></a
+            >
+
+            <p class="video-stats">187K views &#183; 1 month ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=eyJDZBwFbds"
+            ><img class="thumbnail" src="thumnail/thumbnail-4.webp" alt=""
+          /></a>
+
+          <div class="video-time">26:40</div>
+        </div>
+        <div class="vide-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/@learn_o_pedia"
+              ><img
+                class="profile-picture"
+                src="channel-picture/channel-4.jpg"
+                alt=""
+            /></a>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=eyJDZBwFbds"
+              ><p class="video-title">
+                Binomial Distribution | Probability | Mathematics | HSC(12th)
+              </p></a
+            >
+            <a href="https://www.youtube.com/@learn_o_pedia"
+              ><p class="video-author">LearnOpediA</p></a
+            >
+
+            <p class="video-stats">314K views &#183; 4 years ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
+            <img class="thumbnail" src="thumnail/thumbnail-5.webp" alt=""
+          /></a>
+
+          <div class="video-time">11:16</div>
+        </div>
+        <div class="vide-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/@CSDojo"
+              ><img
+                class="profile-picture"
+                src="channel-picture/channel-5.jpeg"
+                alt=""
+            /></a>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
+              <p class="video-title">
+                Kadane's Algorithm to Maximum Sum Subarray Problem
+              </p></a
+            >
+            <a href="https://www.youtube.com/@CSDojo"
+              ><p class="video-author">CS Dojo</p></a
+            >
+
+            <p class="video-stats">519K views &#183; 5 years ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg"
+            ><img class="thumbnail" src="thumnail/thumbnail-6.webp" alt=""
+          /></a>
+
+          <div class="video-time">19:59</div>
+        </div>
+        <div class="vide-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/@MrBeast"
+              ><img
+                class="profile-picture"
+                src="channel-picture/channel-6.jpeg"
+                alt=""
+            /></a>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg"
+              ><p class="video-title">
+                Anything You Can Fit In The Circle I’ll Pay For
+              </p></a
+            >
+            <a href="https://www.youtube.com/@MrBeast"
+              ><p class="video-author">MrBeast</p></a
+            >
+
+            <p class="video-stats">141M views &#183; 1 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=nkrkuWTA7z4"
+            ><img class="thumbnail" src="thumnail/thumbnail-7.webp" alt=""
+          /></a>
+
+          <div class="video-time">15:52</div>
+        </div>
+        <div class="vide-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/@SETIndia"
+              ><img
+                class="profile-picture"
+                src="channel-picture/channel-7.jpg"
+                alt=""
+            /></a>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=nkrkuWTA7z4"
+              ><p class="video-title">
+                A 20,000 Crore Industry | Shark Tank India 2 | Pitches
+              </p></a
+            >
+            <a href="https://www.youtube.com/@SETIndia"
+              ><p class="video-author">SET India</p></a
+            >
+
+            <p class="video-stats">721K views &#183; 12 days ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=9QiE-M1LrZk"
+            ><img class="thumbnail" src="thumnail/thumbnail-8.webp" alt=""
+          /></a>
+
+          <div class="video-time">14:14</div>
+        </div>
+        <div class="vide-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/@BetterThanYesterday"
+              ><img
+                class="profile-picture"
+                src="channel-picture/channel-8.jpg"
+                alt=""
+            /></a>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=9QiE-M1LrZk"
+              ><p class="video-title">
+                How I Tricked My Brain To Like Doing Hard Things (dipamine
+                detox)
+              </p></a
+            >
+            <a href="https://www.youtube.com/@BetterThanYesterday"
+              ><p class="video-author">Better Than Yesterday</p></a
+            >
+
+            <p class="video-stats">23M views &#183; 3 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=5O4O7WCgjcQ"
+            ><img class="thumbnail" src="thumnail/thumbnail-9.webp" alt=""
+          /></a>
+
+          <div class="video-time">17:00</div>
+        </div>
+        <div class="vide-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/@lyricswave2.092"
+              ><img
+                class="profile-picture"
+                src="channel-picture/channel-9.jpg"
+                alt=""
+            /></a>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=5O4O7WCgjcQ"
+              ><p class="video-title">
+                Stereo Hearts (Mix Lyrics) Gym Class Heroes ft. Adam Levine, One
+                Direction
+              </p></a
+            >
+            <a href="https://www.youtube.com/@lyricswave2.092"
+              ><p class="video-author">Lyrics Wave 2.0</p></a
+            >
+
+            <p class="video-stats">592K views &#183; 2 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=On9eSN3F8w0"
+            ><img class="thumbnail" src="thumnail/thumbnail-10.webp" alt=""
+          /></a>
+
+          <div class="video-time">2:34:45</div>
+        </div>
+        <div class="vide-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/@RishabhMishraOfficial"
+              ><img
+                class="profile-picture"
+                src="channel-picture/channel-10.jpg"
+                alt=""
+            /></a>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=On9eSN3F8w0"
+              ><p class="video-title">
+                SQL Tutorial for Beginners | Full SQL Course In Hindi
+              </p></a
+            >
+            <a href="https://www.youtube.com/@RishabhMishraOfficial"
+              ><p class="video-author">Rishabh Mishra</p></a
+            >
+
+            <p class="video-stats">427K views &#183; 4 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=rjDUpxtUPAE"
+            ><img class="thumbnail" src="thumnail/thumbnail-11.webp" alt=""
+          /></a>
+
+          <div class="video-time">16:13</div>
+        </div>
+        <div class="vide-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/@amigoscode"
+              ><img
+                class="profile-picture"
+                src="channel-picture/channel-11.jpg"
+                alt=""
+            /></a>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=rjDUpxtUPAE"
+              ><p class="video-title">
+                10 Most Common Java Developer Mistakes
+              </p></a
+            >
+            <a href="https://www.youtube.com/@amigoscode"
+              ><p class="video-author">Amigoscode</p></a
+            >
+
+            <p class="video-stats">52K views &#183; 2 weeks ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=MAr509g-FqA"
+            ><img class="thumbnail" src="thumnail/thumbnail-12.webp" alt=""
+          /></a>
+
+          <div class="video-time">50:29</div>
+        </div>
+        <div class="vide-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/@MastersUnion"
+              ><img
+                class="profile-picture"
+                src="channel-picture/channel-12.jpg"
+                alt=""
+            /></a>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=MAr509g-FqA"
+              ><p class="video-title">
+                Ashneer Grover Unleashed @Masters Union 🎙️
+              </p></a
+            >
+            <a href="https://www.youtube.com/@MastersUnion"
+              ><p class="video-author">Master's Union</p></a
+            >
+
+            <p class="video-stats">1.7M views &#183; 7 months ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
